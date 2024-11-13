@@ -51,6 +51,8 @@
         <img src="imagens/foto.png" height="180" width="180" class="border border-primary rounded-3" />
         <p class="fs-4 text-start text-break" style="padding-left: 50px; padding-right: 400px;">Número de Telefone: (21)
             97593-9118</p>
+            <p class="fs-4 text-start text-break" style="padding-left: 50px; padding-right: 400px;">joaopedropereirajppco@gmail.com</p>
+            <a href="https://github.com/Joao-PedroPereira" class="fs-4 text-start text-break" style="padding-left: 50px; padding-right: 400px;">Github</a><br /><br />
         <p class="fs-6 text-start text-break" style="padding-left: 50px; padding-right: 400px;">Gameaval é um projeto de
             um site de avaliação de jogos que criei pois sempre gostei de falar sobre esse tema com amigos e pensei que
             um site focado neste assunto seria um ótimo lugar para abrir discussões tanto sobre qualidade dos jogos
