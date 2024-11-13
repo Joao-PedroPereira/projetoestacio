@@ -14,9 +14,9 @@ let msgError = document.querySelector('#msgError')
 let msgSuccess = document.querySelector('#msgSuccess')
 
 usuario.addEventListener('keyup', () => {
-  if (usuario.value.length <= 4) {
+  if (usuario.value.length <= 5) {
     labelUsuario.setAttribute('style', 'color: red')
-    labelUsuario.innerHTML = 'Usuário *Insira no minimo 5 caracteres'
+    labelUsuario.innerHTML = 'Usuário *O Usuário deve ter no mínimo 6 caracteres'
     usuario.setAttribute('style', 'border-color: red')
     validUsuario = false
   } else {
@@ -28,9 +28,9 @@ usuario.addEventListener('keyup', () => {
 })
 
 senha.addEventListener('keyup', () => {
-  if (senha.value.length <= 5) {
+  if (senha.value.length <= 3) {
     labelSenha.setAttribute('style', 'color: red')
-    labelSenha.innerHTML = 'Senha *Insira no minimo 6 caracteres'
+    labelSenha.innerHTML = 'Senha *A senha deve ter no minimo 4 caracteres'
     senha.setAttribute('style', 'border-color: red')
     validSenha = false
   } else {
@@ -44,7 +44,7 @@ senha.addEventListener('keyup', () => {
 confirmSenha.addEventListener('keyup', () => {
   if (senha.value != confirmSenha.value) {
     labelConfirmSenha.setAttribute('style', 'color: red')
-    labelConfirmSenha.innerHTML = 'Confirmar Senha *As senhas não conferem'
+    labelConfirmSenha.innerHTML = 'Confirmar Senha *Insira a mesma senha'
     confirmSenha.setAttribute('style', 'border-color: red')
     validConfirmSenha = false
   } else {
